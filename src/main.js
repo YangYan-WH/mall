@@ -4,10 +4,8 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Router from './router'
 
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import Modal from './components/Modal.vue'
-
+import "./assets/css/base.css";
+import "./assets/css/index.css";
 
 Vue.use(VueAxios,axios)
 Vue.config.productionTip = false
